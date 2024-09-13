@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-# Send a GET request to the webpage
+# envia get
 url = "https://onepiece.fandom.com/es/wiki/Tony_Tony_Chopper/Habilidades_y_poderes#Arm_Point"
 response = requests.get(url)
 
